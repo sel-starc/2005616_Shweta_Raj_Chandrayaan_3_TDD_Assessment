@@ -71,7 +71,9 @@ Final Direction: N
 1. **Incremental Approach**: Build the program incrementally. Capture each step's progress in separate commits.
 2. **Code Quality**: Prioritize readability, clarity, and modular design.
 3. **Error Handling**: Instead of throwing exceptions for invalid commands, the system should handle them gracefully.
+   <br>
    **screenshots:**
+   <br>
    <img width="171" alt="image" src="https://github.com/sel-starc/2005616_Shweta_Raj_Chandrayaan_3_TDD_Assessment/assets/90095060/a88b0c40-8c66-4257-af1b-1a79abce0c70">
    <br>
    <img width="165" alt="image" src="https://github.com/sel-starc/2005616_Shweta_Raj_Chandrayaan_3_TDD_Assessment/assets/90095060/61137e6f-e52e-4faf-adbb-35c1ee24e11b">
