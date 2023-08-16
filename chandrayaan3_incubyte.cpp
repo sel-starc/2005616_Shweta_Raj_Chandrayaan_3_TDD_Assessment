@@ -12,6 +12,18 @@ public:
         lastDir = startDir;
     }
 
+    void move(int step) {
+        if (dir == 'U') z += step;
+        else if (dir == 'D') z -= step;
+        else {
+            if (dir == 'N') y += step;
+            else if (dir == 'S') y -= step;
+            else if (dir == 'E') x += step;
+            else if (dir == 'W') x -= step;
+            lastDir = dir;  
+        }
+    }
+
     void showPosition() {
         cout << "Current Position: (" << x << ", " << y << ", " << z << ")\n";
         cout << "Facing Direction: " << dir << "\n";
@@ -19,6 +31,6 @@ public:
 };
 
 int main() {
-    cout << "Initialization of Spacecraft class done.\n";
+    cout << "done\n";
     return 0;
 }
