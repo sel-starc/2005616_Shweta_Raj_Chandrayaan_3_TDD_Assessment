@@ -52,6 +52,8 @@ Commands: ["f", "r", "u", "b", "l"]
 3. "u" retains the position but changes direction to U (Up).
 4. "b" moves to (0, 1, -1) still facing U (Up).
 5. "l" does not change the position but shifts direction to N.
+<br>
+<br>
    **Logic**
    <img width="496" alt="image" src="https://github.com/sel-starc/2005616_Shweta_Raj_Chandrayaan_3_TDD_Assessment/assets/90095060/e5169d9f-fab7-467b-a302-b9a179708a25">
    <br>
